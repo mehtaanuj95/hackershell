@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Steagonography</title>
+<meta charset="iso-8859-1">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1><a href="#">WSS</a></h1>
+      <h2>Web Security Solutions</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Articles</a></li>
+        <li class="last"><a href="#">Implememtations</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div id="container">
+  <!-- content body -->
+  <div id="content">
+    <!-- section 1 -->
+    <section>
+      <h1>Steagonography</h1>
+      <p>Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video.</p>
+      <p>The advantage of steganography over cryptography alone is that the intended secret message does not attract attention to itself as an object of scrutiny. Plainly visible encrypted messages—no matter how unbreakable—arouse interest, and may in themselves be incriminating in countries where encryption is illegal. Thus, whereas cryptography is the practice of protecting the contents of a message alone, steganography is concerned with concealing the fact that a secret message is being sent, as well as concealing the contents of the message.</p>
+      <h3>Applications / Usage of Steagonography</h3>
+      <ul>
+        <li>Modifying the echo of a sound file (Echo Steganography)</li>
+        <li>Messages written in Morse code on yarn and then knitted into a piece of clothing worn by a courier.</li>
+        <li>Hidden messages on paper written in secret inks, under other messages or on the blank parts of other messages</li>
+        <li>Concealed messages in tampered executable files, exploiting redundancy in the targeted instruction set.</li>
+        <li>Pictures embedded in video material (optionally played at slower or faster speed).</li>
+        <li>Including data in ignored sections of a file, such as after the logical end of the carrier file.</li>
+      </ul>
+      <h3>Countermeasures and Detection</h3>
+      <p><strong>steganographically encoded package detection is called steganalysis.</strong><br>The simplest method to detect modified files, however, is to compare them to known originals. For example, to detect information being moved through the graphics on a website, an analyst can maintain known clean-copies of these materials and compare them against the current contents of the site. The differences, assuming the carrier is the same, comprise the payload.</p>
+
+      <img id="myImg"  src="images/demo/snap1.png" width="300" height="200"/>
+      <img id="myImg2" src="images/demo/snap2.png" width="300" height="200"/> <br/> <br/>
+      <img id="myImg3" src="images/demo/snap1.png" width="300" height="200"/>
+      <img id="myImg4" src="images/demo/snap2.png" width="300" height="200"/>
+    </section>
+    <!-- section 2 -->
+    
+    <!-- section 3 -->
+    <section>
+      <h1>About the Author</h1>
+      <p><img class="imgl" src="images/demo/anuj.jpg" alt="" style="width:80px; height:80px">Anuj Bhai Mehta, born 1995 in jabalpur is an interesting creature. Currently studying Computer Science in SGSITS, Indore, he loves to sleep. He is quite good at playing counter strike. He also loves to make new games. He loves to write poems too...but not always. There's a time for everything...!!</p>
+    </section>
+  </div>
+  <!-- right column -->
+  <aside id="right_column">
+    <h2 class="title">Site Navigation</h2>
+    <nav>
+      <ul>
+        <li><a href="#">Current Page</a></li>
+        <li><a href="#">Current Page</a>
+          <ul>
+            <li><a href="#">Current Page</a></li>
+            <li><a href="#">Current Page</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Current Page</a>
+          <ul>
+            <li><a href="#">Current Page</a></li>
+            <li><a href="#">Current Page</a>
+              <ul>
+                <li><a href="#">Current Page</a></li>
+                <li><a href="#">Current Page</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">Current Page</a></li>
+      </ul>
+    </nav>
+    <h2 class="title">Current Page</h2>
+    <section>
+      <!-- article 1 -->
+      <article>
+        <h2>Post Title</h2>
+        <address>
+        jabalpur, India
+        </address>
+        <time >Thursday, 16<sup>th</sup> Feburary 2017 @08:15:00</time>
+        <p>This is a random text. It will be replaced by something when my brain starts working. I guess 9 hrs of continuous coding is sufficient for a human in one night.</p>
+      </article>
+      <!-- article 2 -->
+      <article>
+        <h2>Post Title</h2>
+        <address>
+        jabalpur, India
+        </address>
+        <time >Thursday, 16<sup>th</sup> Feburary 2017 @08:15:00</time>
+        <p>This is a random text. It will be replaced by something when my brain starts working. I guess 9 hrs of continuous coding is sufficient for a human in one night.</p>
+      </article>
+      <!-- / articles -->
+    </section>
+  </aside>
+  <!-- / content body -->
+  <div class="clear"></div>
+</div>
+<!-- footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left">Copyright &copy; Abhishek Chelawat, Anuj Mehta, Anuj Dubey  <a href="#"></a></p>
+  </footer>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('myImg2');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('myImg4');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+</body>
+</html>
