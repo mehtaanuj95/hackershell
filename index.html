@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="styles/layout.css" type="text/css">
 <script src="scripts/main.js"></script>
 </head>
-<body>
+<body onload="DrawCaptcha();">
 <div class="wrapper row1">
   <header id="header" class="clear">
     <div id="hgroup">
@@ -134,7 +134,7 @@
 
 <div id="id02" class="modal1">
   
-  <form class="modal-content animate" name="f2" action="" onsubmit="return validate();">
+  <form class="modal-content animate" name="f2" action="" onsubmit="return validate();" >
 
     <div class="container">
       <label><b>Name</b></label>
@@ -154,8 +154,26 @@
 	  
 	  <label>Email<b></b></label>
       <input type="text" placeholder="Email ID" name="reg_email" required>
-	  
-        
+      	<table>
+        <tr>
+            <td>
+                Enter the text shown on image <br/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="txtCaptcha" 
+                    style="background-image:url(images/demo/f.jpg); text-align:center; border:none;
+                    font-weight:bold; height:40px; width:190px; font-size:30px; font-family:verdana" />
+                <input type="button" id="btnrefresh" value="Refresh" onclick="DrawCaptcha();" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="txtInput"/>    
+            </td>
+        </tr>
+      </table>  
       <button type="submit" onclick="return validate();">Register</button>
    
     </div>
