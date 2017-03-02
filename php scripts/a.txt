@@ -1,3 +1,0 @@
-IMPORTANCE OF WEB SECURITY
-The concept of security applies to all information. Security relates to the protection of valuable assets against loss, disclosure, or damage. Valuable assets are the data or information recorded, processed, stored, shared, transmitted, or retrieved from an electronic medium. The data or information must be protected against harm from threats that will lead to its loss, inaccessibility, alteration or wrongful disclosure.
-By this website, we aim to provide a secure system which could be used in websites or which could be used to gain information about various threats and vulnerabilities or information regarding do
