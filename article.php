@@ -71,10 +71,10 @@
     </div>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Services</a></li>
-        <li><a href="#">Articles</a></li>
+        <li><a href="article.php">Articles</a></li>
         <li class="last"><a href="#">Implememtations</a></li>
       </ul>
     </nav>

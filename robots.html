@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Steagonography</title>
+<meta charset="iso-8859-1">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1><a href="#">WSS</a></h1>
+      <h2>Web Security Solutions</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="article.php">Articles</a></li>
+        <li class="last"><a href="#">Implememtations</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div id="container">
+  <!-- content body -->
+  <div id="content">
+    <!-- section 1 -->
+    <section>
+      <h1>Robots.txt</h1>
+      <p>Web site owners use the /robots.txt file to give instructions about their site to web robots; this is called The Robots Exclusion Protocol.</p>
+      <p>It works likes this: a robot wants to vists a Web site URL, say http://www.example.com/welcome.html. Before it does so, it firsts checks for http://www.example.com/robots.txt, and finds.</p>
+      <h3>Applications / Usage of Steagonography</h3>
+      <ul>
+        <li>robots can ignore your /robots.txt. Especially malware robots that scan the web for security vulnerabilities, and email address harvesters used by spammers will pay no attention.</li>
+        <li>the /robots.txt file is a publicly available file. Anyone can see what sections of your server you don't want robots to use.
+.</li>
+        
+      </ul>
+      
+
+     
+    </section>
+    <!-- section 2 -->
+    
+    <!-- section 3 -->
+    <section>
+      <h1>About the Author</h1>
+      <p><img class="imgl" src="images/demo/anuj.jpg" alt="" style="width:80px; height:80px">Anuj Bhai Mehta, born 1995 in jabalpur is an interesting creature. Currently studying Computer Science in SGSITS, Indore, he loves to sleep. He is quite good at playing counter strike. He also loves to make new games. He loves to write poems too...but not always. There's a time for everything...!!</p>
+    </section>
+  </div>
+  <!-- right column -->
+  <aside id="right_column">
+    <h2 class="title">Site Navigation</h2>
+    <nav>
+      <ul>
+        <li><a href="#">Current Page</a></li>
+        <li><a href="#">Current Page</a>
+          <ul>
+            <li><a href="#">Current Page</a></li>
+            <li><a href="#">Current Page</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Current Page</a>
+          <ul>
+            <li><a href="#">Current Page</a></li>
+            <li><a href="#">Current Page</a>
+              <ul>
+                <li><a href="#">Current Page</a></li>
+                <li><a href="#">Current Page</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">Current Page</a></li>
+      </ul>
+    </nav>
+    <h2 class="title">Current Page</h2>
+    <section>
+      <!-- article 1 -->
+      <article>
+        <h2>Post Title</h2>
+        <address>
+        jabalpur, India
+        </address>
+        <time >Thursday, 16<sup>th</sup> Feburary 2017 @08:15:00</time>
+        <p>This is a random text. It will be replaced by something when my brain starts working. I guess 9 hrs of continuous coding is sufficient for a human in one night.</p>
+      </article>
+      <!-- article 2 -->
+      <article>
+        <h2>Post Title</h2>
+        <address>
+        jabalpur, India
+        </address>
+        <time >Thursday, 16<sup>th</sup> Feburary 2017 @08:15:00</time>
+        <p>This is a random text. It will be replaced by something when my brain starts working. I guess 9 hrs of continuous coding is sufficient for a human in one night.</p>
+      </article>
+      <!-- / articles -->
+    </section>
+  </aside>
+  <!-- / content body -->
+  <div class="clear"></div>
+</div>
+<!-- footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left">Copyright &copy; Abhishek Chelawat, Anuj Mehta, Anuj Dubey  <a href="#"></a></p>
+  </footer>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('myImg2');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('myImg4');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+</body>
+</html>

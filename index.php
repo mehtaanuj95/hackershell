@@ -15,10 +15,10 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.php ?>">Home</a></li>
 		<li><a href="#">About Us</a></li>
         <li><a href="#">Services</a></li>
-        <li><a href="article.html">Articles</a></li>
+        <li><a href="article.php">Articles</a></li>
         <li><a href="#">Implementations</a></li>
 		<li  onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Register</li>
         <li class="last" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</li>
