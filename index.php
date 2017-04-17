@@ -15,10 +15,10 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.php ?>">Home</a></li>
 		<li><a href="#">About Us</a></li>
         <li><a href="#">Services</a></li>
-        <li><a href="article.html">Articles</a></li>
+        <li><a href="article.php">Articles</a></li>
         <li><a href="#">Implementations</a></li>
 		<li  onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Register</li>
         <li class="last" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</li>
@@ -74,11 +74,11 @@
       <h2 class="title">Web Articles</h2>
       <nav>
         <ul>
-          <li><a href="bey.html">Bey's Encryption Algorithm</a></li>
+          <li><a href="#">Bey's Encryption Algorithm</a></li>
           <li><a href="#">Denial of Service Attacks</a></li>
           <li><a href="steagonography.html">Steagnography</a></li>
           <li><a href="#">nslookup Scan</a></li>
-          <li class="last"><a href="robots.html">robots.txt</a></li>
+          <li class="last"><a href="#">robots.txt</a></li>
         </ul>
       </nav>
       <!-- /nav -->
@@ -133,7 +133,7 @@
 
 <div id="id02" class="modal1">
   
-  <form class="modal-content animate" name="f2" action="" onsubmit="return validate();" >
+  <form class="modal-content animate" name="f2" action="article.php" method="POST" onsubmit="return validate();">
 
     <div class="container">
       <label><b>Name</b></label>
