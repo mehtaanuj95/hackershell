@@ -40,7 +40,7 @@
       $mobile = $_POST['heading'];
       $data = $_POST['article'];
       $otp = rand(1000,9999);
-      $String = "https://control.msg91.com/api/sendhttp.php?authkey=147253Arfy0ejni82L58df9a77&mobiles=".$mobile."&message=".$otp."&sender=IWANUJ&route=4&country=91";
+      $String = "https://control.msg91.com/api/sendhttp.php?authkey= <_My_API_Key_> &mobiles=".$mobile."&message=".$otp."&sender=IWANUJ&route=4&country=91";
       //
       //echo $String;
 
